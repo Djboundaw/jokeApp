@@ -3,6 +3,10 @@ const title = document.getElementById("title");
 const blague = document.getElementById("text");
 const auteur = document.getElementById("author");
 
+/*fetch("https://api.blablagues.net/?rub=blagues")
+  .then((res) => res.json())
+  .then((data) => console.log(data.data));*/
+
 function getJoke() {
   fetch("https://api.blablagues.net/?rub=blagues")
     .then((res) => res.json())
@@ -29,6 +33,12 @@ function getJoke() {
     });
 }
 
+function arrierePlan() {
+  let x = Math.floor(Math.random() * 50 - 1);
+  document.body.style.background = `url("img/${x}.jpg") center`;
+}
+
 uneBlague.addEventListener("click", () => {
   getJoke();
+  arrierePlan();
 });
