@@ -1,0 +1,63 @@
+body {
+  background-color: rgb(204, 200, 200);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  min-height: 100vh;
+  margin: 0;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-size: 1.6rem;
+  color: rgb(130, 174, 107);
+}
+div {
+  width: 75%;
+  max-width: 600px;
+  min-width: 150px;
+  border-radius: 50px;
+  background: #f7ffe5;
+  padding: 20px 40px;
+  box-shadow: 20px 20px 60px #9d9696, -20px -20px 60px #ffffff;
+  transition: 0.2s;
+}
+h1 {
+  font-size: 1.8rem;
+}
+#text {
+  text-transform: capitalize;
+}
+.solution {
+  font-size: 0.8rem;
+  margin: auto;
+  border-radius: 10px;
+  width: 50px;
+  padding: 10px;
+  background-color: cornsilk;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  box-shadow: 2px 2px 6px #9d9669, -2px -2px 6px #f0f0f0;
+  cursor: pointer;
+  border: none;
+}
+#author {
+  font-style: italic;
+}
+#button {
+  margin-top: 25px;
+  color: white;
+  background-color: chocolate;
+  padding: 5px;
+  border-radius: 10px;
+  cursor: pointer;
+  text-decoration: none;
+  box-shadow: 2px 2px 6px #9d9669, 2px 2px 6px #f0f0f0;
+}
+#button:hover {
+  transform: scale(1.02);
+}
+footer {
+  font-size: 1rem;
+  margin-top: 10px;
+  color: black;
+}
