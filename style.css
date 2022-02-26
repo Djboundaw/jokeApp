@@ -8,7 +8,7 @@ body {
   min-height: 100vh;
   margin: 0;
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
-  font-size: 1.6rem;
+  font-size: 1.6em;
   color: rgb(130, 174, 107);
 }
 div {
@@ -22,13 +22,13 @@ div {
   transition: 0.2s;
 }
 h1 {
-  font-size: 1.8rem;
+  font-size: 1.8em;
 }
 #text {
   text-transform: capitalize;
 }
 .solution {
-  font-size: 0.8rem;
+  font-size: 0.8em;
   margin: auto;
   border-radius: 10px;
   width: 50px;
@@ -57,7 +57,7 @@ h1 {
   transform: scale(1.02);
 }
 footer {
-  font-size: 1rem;
+  font-size: 1em;
   margin-top: 10px;
   color: black;
 }
